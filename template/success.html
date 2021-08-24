@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		html {
+  height: 100%;
+}
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.dYUptWeCoGgPV7Z-5QaiDgHaEL%26pid%3DApi&f=1');
+}
+
+.second-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(1,1,1,0.9);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.header, .info, .header-text, .table{
+  color: #ffff;
+}
+
+.home{
+  color: lime;
+}
+
+	</style>
+</head>
+<body>
+  <div class = "second-main" style = "height: 100% , width : 100%;">
+            <nav>
+                <ul style = "padding-right: 2%;" class = "main-nav">
+                    <li><a class="home" href ="/">HomePage</a></li>                
+                </ul>
+               
+            </nav>
+            
+
+            <div class = "info">
+            
+                <row style = "width: 100% ; display: flex; justify-content: center;">
+                    <h3 class = "header-text">Model Prediction</h3>
+                </row>
+                <row style = "width: 100%; display: flex; justify-content: center;">
+                    <table class="table">
+                        
+                        <tr>
+                            <td>{{ p1 }} </td>
+                          </tr>
+                          <tr>
+                                                                                     
+                            <td>{{ p2 }} </td>                                                      
+                        </tr>                                                                                                               
+                        <tr>
+                            
+                            <td>{{ p3 }} </td>
+                          </tr>
+                        <tr>
+                            
+                            <td>{{ p4 }} </td>
+                          </tr>
+                        <tr>
+                            
+                            <td>{{ p5 }} </td>
+                          </tr>
+
+                          <tr>
+                            
+                            <td>{{ p6 }} </td>
+                          </tr>
+                          <tr>
+                            
+                            <td>{{ p7 }} </td>
+                          </tr>
+                          <tr>
+                            
+                            <td>{{ p8}} </td>
+                          </tr>
+                          
+                          
+                    </table>
+                </row>
+                <div style = "width: 100% ; display: flex; justify-content: center;">
+                  <h4>{{ p9}}</h4>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>
